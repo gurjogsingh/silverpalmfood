@@ -1,0 +1,48 @@
+.productContainer{
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+.productLeft{
+    flex:1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productRight{
+    flex:1;
+    padding: 20px;
+}
+
+.productImageContainer{
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+
+.productPrice{
+    color:tomato;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid tomato;
+}
+
+.productQuantity{
+    width:50px;
+    height:30px;
+}
+
+.productButton{
+    height:40px;
+    width: 100px;
+    margin-left: 20px;
+    background-color: peachpuff;
+    border: none;
+    color:tomato;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 7%;
+}
+
