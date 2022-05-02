@@ -67,3 +67,57 @@
 .cartButton:hover{
     color: lightgoldenrodyellow;
 }
+
+@media screen and (max-width:480px) {
+    .cartContainer{
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .cartTable{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cartTrTitle{
+        display: none;
+    }
+
+    .cartTr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .cartName, .cartTotal{
+        font-size: 20px;
+    }
+    .cartImageContainer{
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .cartPrice::before{
+        content: "Price: ";
+        font-weight: bold;
+    }
+    
+    .cartQuantity::before{
+        content: "Quantity: ";
+        font-weight: bold;
+    }
+    .cartTotal::before{
+        content: "Total: ";
+        font-weight: bold;
+    }
+    .cartWrapper{
+        width: 100%;
+    }
+
+}

@@ -33,3 +33,25 @@
     color:goldenrod;
 }
 
+@media screen and (max-width:480px) {
+    .footerItem:first-child{
+        display: none;
+    }
+
+    .footerItem:nth-child(2){
+        flex-direction: column;
+    }
+
+    .footerContainer{
+        height: auto;
+        text-align: center;
+    }
+
+    .footerTitle{
+        font-size: 30px;
+    }
+    .footerText{
+        font-size: 20px;
+    }
+}
+

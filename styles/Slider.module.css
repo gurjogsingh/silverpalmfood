@@ -2,6 +2,7 @@
     height: calc(100vh - 100px);
     background-color: peachpuff;
     overflow:hidden;
+    position: relative;
 }
 
 .sliderArrowContainer{
@@ -27,4 +28,11 @@
     height: 100%;
     position: relative;
  
+}
+
+@media screen and (max-width:480px) {
+    .sliderContainer{
+        height: 50vh;
+    }
+    
 }

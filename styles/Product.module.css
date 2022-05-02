@@ -46,3 +46,27 @@
     border-radius: 7%;
 }
 
+@media screen and (max-width:480px) {
+    .productContainer{
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .productImageContainer{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .productName{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .productButton{
+        margin-top: 10px;
+    }
+    
+}
+

@@ -20,3 +20,14 @@
     justify-self: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width:480px) {
+    .productListTitle{
+        text-align: center;
+    }
+    .productListDescription{
+        width: 90%;
+        text-align: center;
+    }
+    
+}

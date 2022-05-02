@@ -76,3 +76,14 @@
     font-weight: bold;
     color: tomato;
 }
+
+
+@media screen and (max-width:480px) {
+    .navbarItem:nth-child(2){
+        display: none;
+    }
+    .navbarItem:nth-child(1){
+        flex: 3;
+    }
+    
+}

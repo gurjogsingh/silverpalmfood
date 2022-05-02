@@ -1,0 +1,134 @@
+.orderContainer{
+    padding:50px;
+    display:flex;
+}
+
+.orderLeft{
+    flex:2;
+}
+
+.orderRight{
+    flex: 1;
+}
+
+.orderWrapper{
+    width: 90%;
+    max-height: 300px;
+    background-color: #333;
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+}
+.orderTotalTextTitle{
+    margin-right: 10px;
+
+}
+
+.orderButton{
+    height: 30px;
+    color:teal;
+    font-weight: bold;
+    cursor: not-allowed;
+    border: none;
+    background-color: white;
+    border-radius: 2%;
+    margin-top: 20px;
+
+}
+
+.orderTable{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.orderRow:last-child{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderDone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderInProgress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: inProgress 1s ease infinite alternate;
+}
+
+@keyframes inProgress{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.orderUndone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.3;
+}
+
+.orderUndone .orderCheckedIcon, .orderInProgress .orderCheckedIcon{
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    .orderContainer{
+        flex-direction: column;
+    }
+
+    .orderTrTitle{
+        display: none;
+    }
+
+    .orderTr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-style: 20px;
+    }
+
+    .orderID::before{
+        content: "Order ID: ";
+        font-weight: 500;
+    }
+    .orderName::before{
+        content: "Customer: ";
+        font-weight: 500;
+    }
+    .orderAddress::before{
+        content: "Address: ";
+        font-weight: 500;
+    }
+    .orderTotal::before{
+        content: "Total: ";
+        font-weight: 500;
+    }
+
+    .orderRow:last-child{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .orderDone, .orderInProgress, .orderUndone{
+        margin-bottom: 20px;
+    }
+    .orderWrapper{
+        width: 100%;
+    }
+
+}
