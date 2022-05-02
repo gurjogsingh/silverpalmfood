@@ -1,0 +1,31 @@
+.productCardContainer{
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.productCardContainer:hover{
+    background-color:peachpuff
+}
+.productCardTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color:tomato;
+
+}
+
+.productCardPrice{
+    font-size: 18px;
+    font-weight: bold;
+    color:#666;
+}
+
+.productCardDescription{
+    text-align: center;
+    color:#777;
+}
+
