@@ -1,3 +1,12 @@
+
+This is a functional prototype for a food and beverage ordering website for Silver Palm Hotel, Kilifi. 
+
+Note - Relevant images and content are owned by Silver Palm Hotel, Kilifi and were provided to me for educational purposes. Hence, I have chosen not to deploy it to avoid it being publicly available. 
+
+NextJS details below:
+
+______________________________________________________________________________________________________________________________
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
