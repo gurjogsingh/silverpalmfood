@@ -9,7 +9,7 @@
     cursor: pointer;
 }
 .productCardContainer:hover{
-    background-color:peachpuff
+    background-color:peachpuff;
 }
 .productCardTitle{
     font-size: 18px;
@@ -27,6 +27,7 @@
 .productCardDescription{
     text-align: center;
     color:#777;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width:480px) {

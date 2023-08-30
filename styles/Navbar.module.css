@@ -60,6 +60,7 @@
 
 .navbarCart{
     position: relative;
+    cursor: pointer;
 }
 .navbarCounter{
     position: absolute;

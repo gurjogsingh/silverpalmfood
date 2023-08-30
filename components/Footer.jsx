@@ -10,11 +10,16 @@ const Footer = () => {
             </div>
             <div className={styles.footerItem}>
                 <div className={styles.footerCard}>
-                    <h2 className={styles.footerMotto}>A MOTTO?</h2>
+                    <h2 className={styles.footerMotto}>An Epitome of Luxury to Rejuvenate Your Senses.</h2>
                 </div>
                 <div className={styles.footerCard}>
                     <h1 className={styles.footerTitle}>OUR LOCATION</h1>
-                    <p className={styles.footerText}> PUT ADDRESS OF SILVER PALM HERE</p>
+                    <p className={styles.footerText}> Bofa Beach Road,</p>
+                    <p className={styles.footerText}> Kilifi, Kenya</p>
+                    <h1 className={styles.footerTitle} style={{marginTop: '30%'}}>CONTACT US</h1>
+                    <p className={styles.footerText}> email: info@silverpalmkilifi.co.ke</p>
+                    <p className={styles.footerText}> tel: +254 780 745837</p>
+                    <p className={styles.footerText}> fax: +254 707 745837</p>
                 </div>
                 <div className={styles.footerCard}>
                     <h1 className={styles.footerTitle}>WORKING HOURS</h1>

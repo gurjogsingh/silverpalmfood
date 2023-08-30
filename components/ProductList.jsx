@@ -1,16 +1,16 @@
 import styles from "../styles/ProductList.module.css"
 import ProductCard from "./ProductCard";
 
-const ProductList = () => {
+const ProductList = ({productList}) => {
+    
     return (
         <div className={styles.productListContainer}>
-            <h1 className={styles.productListTitle}>TITLE OF THE THING</h1>
-            <p className={styles.productListDescription}> Lorem ipsum text whatever</p>
+            <h1 className={styles.productListTitle}>Our Silver Menu in your Palm</h1>
+            <p className={styles.productListDescription}> Please select an item you'd like to order.</p>
             <div className={styles.productListWrapper}>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
+                {productList.map((product) => (
+                    <ProductCard key ={product._id} product ={product}/>
+                ))}
             </div>
         </div>
 
